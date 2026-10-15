@@ -16,6 +16,5 @@
   "scripts": {
     "test": "node --test"
   },
-  "license": "UNLICENSED",
-  "private": true
+  "license": "UNLICENSED"
 }
