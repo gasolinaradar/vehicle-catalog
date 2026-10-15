@@ -1,0 +1,21 @@
+{
+  "name": "@gasolinaradar/vehicle-catalog",
+  "version": "0.1.0",
+  "description": "Catálogo curado de motos de GasolinaRadar: búsqueda, marcas, modelos y resolución con depósito de ficha oficial y consumo estimado",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

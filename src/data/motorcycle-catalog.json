@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "note": "Catálogo curado de motos de combustión. Cada depósito viene de la ficha técnica oficial del fabricante (ver tankSourceUrl; ojo al mercado y a si es depósito total o útil). Ninguna de estas fichas publica consumo oficial en L/100 km: el consumo es una estimación por cilindrada (consumptionDefaults) salvo que la entrada indique consumptionSource 'manufacturer'. Valores pendientes de revisión humana en la PR.",
+    "reviewed": false,
+    "tankVerifiedAt": "2026-10-15",
+    "consumptionDefaults": [
+      { "maxCc": 125, "l100km": 2.0 },
+      { "maxCc": 400, "l100km": 3.0 },
+      { "maxCc": 700, "l100km": 4.0 },
+      { "maxCc": 1000, "l100km": 4.8 },
+      { "maxCc": null, "l100km": 5.8 }
+    ]
+  },
+  "entries": [
+    {
+      "id": "moto-honda-cb500f-2024",
+      "make": "Honda",
+      "model": "CB500F",
+      "variant": null,
+      "displacementCc": 471,
+      "yearFrom": 2024,
+      "yearTo": null,
+      "powertrain": "petrol",
+      "fuelKey": "gasolina95e5",
+      "tankLiters": 17,
+      "tankSource": "manufacturer",
+      "tankSourceUrl": "https://www.hondanews.com/en-US/powersports/releases/release-f43bcac5ded8efe77b071fcb0c01a25b-2024-honda-cb500f-specifications",
+      "tankNote": "4,5 gal (ficha US de Honda); fichas UK citan 17,1 L",
+      "vehicleType": "motorcycle"
+    },
+    {
+      "id": "moto-honda-cb650r-2023",
+      "make": "Honda",
+      "model": "CB650R",
+      "variant": null,
+      "displacementCc": 649,
+      "yearFrom": 2023,
+      "yearTo": null,
+      "powertrain": "petrol",
+      "fuelKey": "gasolina95e5",
+      "tankLiters": 15.5,
+      "tankSource": "manufacturer",
+      "tankSourceUrl": "https://hondanews.com/en-US/releases/2023-honda-cb650r-specifications",
+      "tankNote": "4,1 gal (ficha US de Honda)",
+      "vehicleType": "motorcycle"
+    },
+    {
+      "id": "moto-yamaha-mt-07-2024",
+      "make": "Yamaha",
+      "model": "MT-07",
+      "variant": null,
+      "displacementCc": 689,
+      "yearFrom": 2024,
+      "yearTo": null,
+      "powertrain": "petrol",
+      "fuelKey": "gasolina95e5",
+      "tankLiters": 14,
+      "tankSource": "manufacturer",
+      "tankSourceUrl": "https://www.yamahamotorsports.com/models/mt-07/specs",
+      "tankNote": "3,7 gal (ficha US de Yamaha); 14 L en fichas de terceros",
+      "vehicleType": "motorcycle"
+    },
+    {
+      "id": "moto-bmw-g-310-r-2024",
+      "make": "BMW",
+      "model": "G 310 R",
+      "variant": null,
+      "displacementCc": 313,
+      "yearFrom": 2024,
+      "yearTo": null,
+      "powertrain": "petrol",
+      "fuelKey": "gasolina95e5",
+      "tankLiters": 11,
+      "tankSource": "manufacturer",
+      "tankSourceUrl": "https://bmw-motorrad.ca/en/models/roadster/g310r/technicaldata.html",
+      "tankNote": "Depósito útil 11 L (reserva 1 L), ficha BMW Canadá",
+      "consumptionL100km": 3.5,
+      "consumptionSource": "manufacturer",
+      "vehicleType": "motorcycle"
+    },
+    {
+      "id": "moto-bmw-r-1250-gs-2024",
+      "make": "BMW",
+      "model": "R 1250 GS",
+      "variant": null,
+      "displacementCc": 1254,
+      "yearFrom": 2024,
+      "yearTo": null,
+      "powertrain": "petrol",
+      "fuelKey": "gasolina95e5",
+      "tankLiters": 20,
+      "tankSource": "manufacturer",
+      "tankSourceUrl": "https://www.bmw-motorrad.com.my/en/models/adventure/r1250gs/technicaldata.html",
+      "tankNote": "Depósito útil 20 L, ficha BMW Malasia",
+      "vehicleType": "motorcycle"
+    }
+  ]
+}
