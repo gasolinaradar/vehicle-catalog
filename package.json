@@ -8,7 +8,8 @@
   },
   "files": [
     "src",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=18"
@@ -16,5 +17,22 @@
   "scripts": {
     "test": "node --test"
   },
-  "license": "UNLICENSED"
+  "keywords": [
+    "gasolinaradar",
+    "motorcycle",
+    "vehicle",
+    "catalog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gasolinaradar/vehicle-catalog.git"
+  },
+  "homepage": "https://github.com/gasolinaradar/vehicle-catalog#readme",
+  "bugs": {
+    "url": "https://github.com/gasolinaradar/vehicle-catalog/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
